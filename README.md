@@ -85,7 +85,8 @@ kubectl apply -f ms3-service.yml
 
 ---
 
-Below are the commands and their respectiv outputs
+- **Below are the commands and their respective outputs**
+   ```bash
 docker-compose logs ms1
 docker-compose logs ms2
 docker-compose logs ms3
@@ -101,7 +102,9 @@ kubectl describe service microservice3-service
 kubectl get endpoints
 
 
+  ```
 
 
 ![alt text](image.png)
+![alt text](image-1.png)
 
