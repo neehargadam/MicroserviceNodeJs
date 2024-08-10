@@ -85,4 +85,4 @@ kubectl apply -f ms3-service.yml
 
 ---
 
-Feel free to update your GitHub repository with this documentation. Once you're ready, we can move on to configuring the Ingress Controller!
+
