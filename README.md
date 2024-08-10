@@ -145,8 +145,6 @@ kubectl get endpoints
 ```
 ```
 
-This formatting ensures that each command is properly displayed in code blocks and the commands are well-organized for easy understanding.
-
 
 ![alt text](image.png)
 
