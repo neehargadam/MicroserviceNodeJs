@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: microserver3-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: microserver3
+  template:
+    metadata:
+      labels:
+        app: microserver3
+    spec:
+      containers:
+      - name: microserver3
+        image: neehargadam/microservice3:latest
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 3002
