@@ -85,24 +85,67 @@ kubectl apply -f ms3-service.yml
 
 ---
 
-- **Below are the commands and their respective outputs**
-   ```bash
+Certainly! To make the commands and their outputs suitable for inclusion in a `README.md` file on GitHub, you should format them with proper markdown syntax for code blocks and add some descriptions if necessary. Here’s an updated version:
+
+```markdown
+## Docker Compose Logs
+
+To view logs for the microservices, use the following commands:
+
+```bash
 docker-compose logs ms1
+```
+
+```bash
 docker-compose logs ms2
+```
+
+```bash
 docker-compose logs ms3
+```
 
+## Kubernetes Deployment and Service Information
+
+To check the status of deployments, services, and pods in Kubernetes, use:
+
+```bash
 kubectl get deployments
+```
+
+```bash
 kubectl get services
+```
+
+```bash
 kubectl get pods
+```
 
+## Describe Kubernetes Services
+
+To get detailed information about each service, use:
+
+```bash
 kubectl describe service microservice1-service
+```
+
+```bash
 kubectl describe service microservice2-service
+```
+
+```bash
 kubectl describe service microservice3-service
+```
 
+## Kubernetes Endpoints
+
+To view the endpoints for the services, use:
+
+```bash
 kubectl get endpoints
+```
+```
 
-
-  ```
+This formatting ensures that each command is properly displayed in code blocks and the commands are well-organized for easy understanding.
 
 
 ![alt text](image.png)
