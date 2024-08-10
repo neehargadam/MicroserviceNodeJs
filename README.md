@@ -143,7 +143,6 @@ To view the endpoints for the services, use:
 ```bash
 kubectl get endpoints
 ```
-```
 
 
 ![alt text](image.png)
