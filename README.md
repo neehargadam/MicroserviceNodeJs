@@ -1,5 +1,3 @@
----
-
 ## Documentation for Microservices Deployment on Kubernetes
 
 ### **1. Setting Up Microservices**
